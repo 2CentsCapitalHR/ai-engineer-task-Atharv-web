@@ -23,7 +23,7 @@
 </head>
 <body class="bg-light">
 <div class="container mt-5">
-    <h1 class="mb-4">⚖️ ADGM Legal Assistant</h1>
+    <h1 class="mb-4"> Corporate Agent</h1>
 
     <form method="post" enctype="multipart/form-data" action="/run" class="card p-4 shadow-sm bg-white" onsubmit="startProgress()">
         <div class="mb-3">
@@ -46,7 +46,6 @@
                 <h4 class="card-title">Report</h4>
                 <pre class="bg-light p-3 border rounded">{{ report | tojson(indent=2) }}</pre>
                 <a class="btn btn-success" href="{{ url_for('download', filename='report.json') }}">Download JSON report</a>
-                <a class="btn btn-secondary" href="{{ url_for('download', filename='output_bundle.zip') }}">Download Output ZIP</a>
             </div>
         </div>
     {% endif %}

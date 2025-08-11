@@ -1,4 +1,4 @@
-# Corporte Agent
+# Corporate Agent
 
 This project is an application that automates legal document analysis and review using AI powered Assistant called Corporate Agent. This agent will assist in reviewing, validating, and helping users prepare documentation for business incorporation and compliance within the Abu Dhabi Global Markets (ADGM).
 

@@ -50,3 +50,5 @@ This project is an application that automates legal document analysis and review
    ```
 5. Open your browser at [http://localhost:5000](http://localhost:5000), upload legal `.docx` files, and review the results. The `.docx` (annotated) file will be present in the `output` folder
 
+## Demo Video
+[Watch Demo Video](assets/video.mp4)
